@@ -1,0 +1,38 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+body,html{
+    margin: 0px;
+}
+
+.navigation-bar{
+    height: 70px;
+    background-color: #333;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.navigation-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.title{
+    color: white;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.add-book{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
