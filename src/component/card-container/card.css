@@ -1,30 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .container{
-    background-color:whitesmoke;
+    background-color:white;
+    max-width: 800px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     grid-gap: 5px;
+    padding: 5px;
+    margin: auto;
 }
+
 
 
 .card{
     width: 15rem;
-    height: 15rem;
+    height: 10rem;
     border: solid black 2px;
     margin-top: 10px;
     margin-left: 15px;
     border-radius: 10px;
     text-align: center;
-    padding: 15px;
-    line-height: 30px;
+    padding: 25px;
+    line-height: 25px;
+    box-shadow: 10px 5px 5px;
 }
 
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 
 .book-name{
-    font-size: xx-large;
+    font-size: large;
+    font-family: 'Bungee Spice';
 }
 
 .buttons{
@@ -33,3 +45,45 @@
     margin-top: 10px;
 }
 
+.buttons button{
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.addbook {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .addbook label {
+    text-align: left;
+    display: block;
+  }
+  .addbook h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 30px;
+  }
+  .addbook input, .addbook textarea, .addbook select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .addbook button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
